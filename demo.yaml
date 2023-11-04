@@ -1,0 +1,34 @@
+---
+# ['hello', 'bye', 'vietnam']
+- Hello
+- Bye
+- Vietnam
+
+---
+# map/dictionary of key-value pairs
+name: Quang
+age: 28
+
+---
+# list/array of elements
+# [element1, element2]
+- name: Thai
+  age: 25
+  place: Hanoi
+
+- name: Nam
+
+---
+include_newlines: |
+  exactly as you see
+  will appear these three
+  lines of poetry
+
+# print(include_newlines) = "exactly as you see\nwill appear these three\nlines of poetry"
+
+fold_newlines: >
+  this is really a
+  single line of text
+  despite appearances
+
+# print(fold_newlines) = "exactly as you see will appear these three lines of poetry"

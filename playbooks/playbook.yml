@@ -1,0 +1,7 @@
+---
+- name: Update APT and Install Nginx
+  hosts: aws_servers
+  become: true
+  roles:
+    - ../roles/nginx
+    - ../roles/upload-sample-files
