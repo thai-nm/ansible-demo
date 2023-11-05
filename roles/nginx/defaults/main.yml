@@ -1,2 +1,0 @@
-allow_update_apt_cache: true
-enable_gzip: "on"
